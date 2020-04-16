@@ -33,7 +33,7 @@ public class TelaLogin extends javax.swing.JFrame {
             // se existir usuario e senha correspondentes
             if (rs.next()) {
                 String perfil = rs.getString(6);
-                System.out.println("perfil");
+                //System.out.println("perfil");
                 if (perfil.equals("admin")) {
                     TelaPrincipal principal = new TelaPrincipal();
                     principal.setVisible(true);
@@ -63,7 +63,7 @@ public class TelaLogin extends javax.swing.JFrame {
     public TelaLogin() {
         initComponents();
         conexao = ModuloConexao.conector();
-        System.out.println(conexao);
+        //System.out.println(conexao);
 
         if (conexao != null) {
             lblStatus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/infox/icones/conectado.png")));
