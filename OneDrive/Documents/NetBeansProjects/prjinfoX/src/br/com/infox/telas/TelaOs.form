@@ -222,6 +222,9 @@
           </StringArray>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cboOsSituacaoActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
       </AuxValues>
@@ -346,7 +349,7 @@
                   </Group>
                   <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="txtOsServiço" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtOsServico" alignment="0" max="32767" attributes="0"/>
                       <Component id="txtOsDefeito" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" attributes="0">
                           <Component id="txtOsTecnico" min="-2" pref="216" max="-2" attributes="0"/>
@@ -378,7 +381,7 @@
                   <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtOsServiço" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOsServico" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -419,10 +422,13 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtOsEquipamento">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtOsEquipamentoActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtOsDefeito">
         </Component>
-        <Component class="javax.swing.JTextField" name="txtOsServi&#xe7;o">
+        <Component class="javax.swing.JTextField" name="txtOsServico">
         </Component>
         <Component class="javax.swing.JTextField" name="txtOsTecnico">
         </Component>
@@ -443,6 +449,9 @@
           <Color id="Cursor em Forma de M&#xe3;o"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOsPesquisarActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnOsAtualizar">
       <Properties>
@@ -454,6 +463,9 @@
           <Color id="Cursor em Forma de M&#xe3;o"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOsAtualizarActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnOsDeletar">
       <Properties>
@@ -465,6 +477,9 @@
           <Color id="Cursor em Forma de M&#xe3;o"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOsDeletarActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnOsAdicionar">
       <Properties>
@@ -487,6 +502,9 @@
           <Color id="Cursor em Forma de M&#xe3;o"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOsImprimirActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
